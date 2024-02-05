@@ -2,9 +2,12 @@ package weekly1;
 
 public class Product {
 
-    String name;
-    double weight;
-    double price;
+    private String name;
+    private double weight;
+    private double price;
+
+
+
 
     Product(String name, double weight, double price){
         this.name = name;
@@ -34,6 +37,19 @@ public class Product {
             return 0;
         }
 
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getWeight() {
+        return weight;
     }
 }
 
